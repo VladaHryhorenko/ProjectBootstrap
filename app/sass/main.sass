@@ -1,0 +1,665 @@
+$grid-gutter-width: 30px
+
+*
+    box-sizing: border-box
+
+a
+    text-decoration: none
+
+.clearfix:after
+    visibility: hidden
+    display: block
+    font-size: 0
+    content: " "
+    clear: both
+    height: 0
+
+body
+    font-family: 'Roboto','Playfair Display', sans-serif
+    text-decoration: none
+    min-width: 284px
+
+
+
+.bg-wrapper
+    width: 100%
+    background: url("../img/dest/bg-section-frst.jpg") no-repeat
+    background-size: cover
+
+.navbar
+    width: 100%
+
+.bg-nav-color
+    background-color: transparent
+
+#navbarSupportedContent.collapse.navbar-collapse.align-class
+    width: 100%
+
+.logo-wrapper a
+    outline: none
+    text-decoration: none
+
+.logo
+    display: inline
+    font-size: 30px
+    font-weight: 100
+    color: #00e0d0
+
+.nav-link
+    color: #fff!important
+    text-transform: uppercase!important
+
+.nav-link:focus
+    color: #00e0d0!important
+.nav-link.nav-active
+    color: #00e0d0!important
+
+.carousel-item
+    height: 600px
+    width: 100%
+    position: relative
+
+.carousel-caption
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+.carousel-indicators
+    padding: 20px 0 40px 0
+
+.carousel-indicators li
+    width: 7px
+    height: 7px
+    border-radius: 50%
+    background-color: transparent
+    border: 1px solid #c6c4c9
+
+.carousel-indicators li.active
+    background-color: #00e0d0
+    border-color: #00e0d0
+
+.bunner-title
+    color: #fff
+    font-size: 32px
+    font-weight: 500
+    font-family: Playfair Display
+    margin-bottom: 60px
+    position: relative
+
+.bunner-title:before
+    content: ''
+    display: block
+    height: 2px
+    width: 50px
+    position: absolute
+    left: 50%
+    bottom: -50%
+    transform: translate(-50%, -50%)
+    background-color: #c6c4c9
+
+.bunner-title-description
+    color: #fff
+    font-size: 14px
+    font-weight: 300
+    margin-bottom: 60px
+    font-family: 'Roboto'
+    line-height: 1.5
+
+.bunner-link
+    color: #00e0d0
+    text-transform: uppercase
+    font-size: 16px
+    font-weight: 500
+    padding: 14px 15px
+    border: 1px solid #00e0d0
+    outline: none
+
+.bunner-link:hover 
+    color: #00e0d0
+    text-decoration: none
+
+.bunner-link:active
+    color: #fff
+    border: 1px solid #fff
+
+.section-story-wrapper
+    background-color: #fff
+    padding: 70px 0
+
+.section-story-img
+    margin-bottom: 30px
+    img
+        width: 100%
+
+.section-story-title
+    font-size: 22px
+    font-weight: 400
+    font-family: Playfair Display
+    margin-bottom: 30px
+    color: #413d4b
+
+.section-story-description
+    font-size: 14px
+    color: #413d4b
+    font-weight: 300
+    margin-bottom: 30px
+    line-height: 1.5
+
+.story-link:active
+    color: #413d4b
+    border: 1px solid #413d4b
+
+.section-video-bg
+    padding: 200px 0
+    width: 100%
+    background: url(../img/dest/video-bg.jpg) no-repeat
+    background-size: cover
+
+.section-video-title
+    font-size: 16px
+    font-weight: 400
+    text-transform: uppercase
+    color: #fff
+    padding-top: 170px
+    position: relative
+    text-align: center
+
+.section-video-title:before
+    content: ''
+    display: block
+    position: absolute
+    width: 100px
+    height: 100px
+    background: url(../img/dest/video-icon.png) no-repeat
+    background-size: cover
+    left: 50%
+    top: 40%
+    transform: translate(-50%, -50%)
+    cursor: pointer
+
+
+.section-expertise-wrapper
+    padding: 70px 0
+    background-color: #fff
+
+.sect-titles
+    margin-bottom: 45px
+
+.text-experience
+    text-align: center
+    margin-bottom: 20px
+    font-family: Playfair Display
+    font-weight: 400
+
+.description-pseudoelem
+    position: relative
+
+.description-pseudoelem:before
+    content: ''
+    display: block
+    position: absolute
+    height: 2px
+    width: 50px
+    background-color: #c6c4c9
+    left: 50%
+    transform: translateX(-50%)
+    bottom: -100%
+
+.section-expertise-title-wrap
+    margin-bottom: 45px
+
+.card-wrapper
+    padding: 20px
+    background-color: #fff
+    text-align: center
+
+.border-class-lg
+    border: 1px solid #ebebeb
+    border-top: none
+    border-left: none
+    &:nth-child(3n)
+        border-right: none
+    &:nth-child(n+4)
+        border-bottom: none
+
+.border-class-md
+    border: 1px solid #ebebeb
+    border-top: none
+    border-left: none
+    &:nth-child(2n)
+        border-right: none
+    &:nth-child(n+5)
+        border-bottom: none
+
+.border-class-mob
+    border-bottom: 1px solid #ebebeb
+    &:last-child
+        border-bottom: none
+
+.card-img-wrapper
+    width: 60px
+    height: 60px
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 30px
+
+.card-item-title
+    display: block
+    color: #413d4b
+    font-size: 14px
+    font-weight: 400
+    margin-bottom: 25px
+
+.card-item-description
+    color: #8f8f8f
+    font-size: 14px
+    font-weight: 300
+    line-height: 1.5
+
+.section-about-team-wrapper
+    width: 100%
+    height: 100%
+    padding: 70px 0px
+    background: url('../img/dest/team-sect-bg.jpg') no-repeat
+    background-size: cover
+
+.light-theme
+    color: #fff
+
+.team-cards-items
+    margin-bottom: 40px
+
+.team-md-card-wrapper
+    margin-bottom: 30px
+
+.avatar-team-card-wrapper
+    background-color: #fff
+    width: 100%
+    height: 230px
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover
+        
+
+.team-card-description
+    width: 100%
+    border: 1px solid #7b778f
+    padding: 20px
+
+.name-card-field
+    color: #fff
+    font-size: 14px
+    font-weight: 400
+    margin-bottom: 12px
+
+.position-card-field
+    display: block
+    color: #9997a9
+    font-size: 13px
+    font-weight: 400
+    margin-bottom: 5px
+
+.sect-team-slogan
+    color: #fff
+    font-size: 14px
+    font-weight: 300
+    margin-bottom: 30px
+    text-align: center
+
+.section-works
+    padding: 70px 0
+    color: #fff
+
+.section-testimonials
+    width: 100%
+    height: 100%
+    padding: 70px 0px
+    background: url('../img/dest/testimonials-bg.jpg') no-repeat
+    background-size: cover
+
+.testimonial-cards
+    width: 100%
+
+.testimonial-card
+    text-align: center 
+    margin-bottom: 40px
+
+.testimonial-description
+    padding-top: 70px
+    color: #fff
+    font-family: 'Playfair Display'
+    font-weight: 400
+    font-size: 16px
+    margin-bottom: 50px
+    position: relative
+    line-height: 1.5
+
+.testimonial-description:before
+    content: ''
+    display: block
+    font-size: 100px
+    width: 38px
+    height: 30px
+    background: url('../img/dest/testimonials.png') no-repeat
+    background-size: cover
+    position: absolute
+    top: 0
+    left: 50%
+    transform: translateX(-50%)
+
+.authors-of-testimonials
+    width: 100%
+
+/*.author-avatar-wrapper
+    $width: 100%
+    height: 90px
+    margin: 0 10px
+    border-radius: 50%
+    overflow: hidden
+    background-color: #ebebeb
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover*/
+
+.slick-slide img 
+    display: block
+    width: 70px
+    height: 70px
+    border-radius: 50%
+    overflow: hidden
+    margin: 0 auto
+
+
+.slick-prev
+    left: -3%
+
+.slick-next
+    right: -5%
+
+.slick-next.slick-arrow:before
+    content: ''
+    display: block
+    width: 12px
+    height: 20px
+    background: url('../img/dest/rigth-arrow.png') no-repeat
+    background-size: cover
+
+.slick-prev.slick-arrow:before
+    content: ''
+    display: block
+    width: 12px
+    height: 20px
+    background: url('../img/dest/rigth-arrow.png') no-repeat
+    background-size: cover
+    transform: rotate(180deg);
+
+.section-contact
+    padding: 70px 0
+    background-color: #fff
+
+.contact-form-wrapper
+    width: 100%
+
+.sect-form-wrapper
+    margin-bottom: 50px
+
+.contact-sect-title
+    margin-bottom: 35px
+    color: #413d4b
+    font-size: 22px
+    font-weight: 400
+    font-family: Playfair Display
+
+.input-style
+    display: block
+    width: 100%
+    outline: none
+    padding: 16px 20px
+    border: 1px solid #e5e5e5
+    margin-bottom: 20px
+
+.contact-button
+    padding: 14px 32px
+    color: #00e0d0
+    text-transform: uppercase
+    font-size: 16px
+    font-weight: 500
+    border: 1px solid #00e0d0
+    outline: none
+    background-color: #fff
+
+.contact-button:active
+    color: #e5e5e5
+    border: 1px solid #e5e5e5
+
+.client-logo-wrapper
+    width: 100%
+    height: 85px
+    margin-bottom: 15px
+    overflow: hidden
+    img
+        width: 100%
+        max-width: 140px
+
+.footer-bg
+    width: 100%
+    height: 100%
+    background: url('../img/dest/footer-bg.jpg') no-repeat
+    background-size: cover
+    padding: 70px 0
+
+.logo-wrapper
+    margin-bottom: 30px
+
+.footer-text
+    color: #fff
+    font-size: 14px
+    font-weight: 300
+    line-height: 1.5
+    margin-bottom: 10px
+
+.footer-title
+    color: #fff
+    font-size: 15px
+    font-weight: 500
+    margin-bottom: 38px
+
+.studio-contact-wrapper
+    padding: 0 30px
+
+.footer-studio-adress
+    position: relative
+
+.footer-studio-adress:before
+    content: ''
+    display: block
+    width: 15px
+    height: 20px
+    background: url('../img/dest/adress-icon.png') no-repeat
+    background-size: cover
+    position: absolute
+    top: 0
+    left: -30px
+
+.footer-studio-phone
+    position: relative
+
+.footer-studio-phone:before
+    content: ''
+    display: block
+    width: 18px
+    height: 19px
+    background: url('../img/dest/phone-icon.png') no-repeat
+    background-size: cover
+    position: absolute
+    top: 0
+    left: -30px   
+
+.form-subscribe-link
+    width: 80%
+    padding: 15px 16px
+    font-size: 13px
+    border: 1px solid #9e98b0
+    outline: none
+    text-decoration: none
+    color: #cecbd7
+
+.form-subscribe-link:hover
+    outline: none
+    text-decoration: none
+    color: #cecbd7
+
+.footer-btn
+    width: 20%
+    outline: none
+    border: none
+    position: relative
+    background-color: rgba(255, 255, 255, 0.5)
+    margin-left: 10px
+    margin-bottom: 10px 
+
+.footer-btn:active
+    background-color: rgba(255, 255, 255, 0.2)
+    
+.footer-btn:before
+    content: ''
+    display: block
+    width: 25px
+    height: 25px
+    background: url('../img/dest/send.png') no-repeat
+    background-size: cover
+    position: absolute 
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+.social-media-item
+    width: 35px
+    height: 35px
+    border: 1px solid #fff
+    border-radius: 50%
+    margin: 0 4px 8px 4px
+
+.item-facebook, .item-twitter, .item-dribble, .item-instagram, .item-google, .item-youtube
+    position: relative
+
+.item-facebook:before
+    content: ''
+    display: block
+    width: 9px
+    height: 16px
+    background: url('../img/dest/facebook.png') no-repeat
+    background-size: contain
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+
+.item-twitter:before
+    content: ''
+    display: block
+    width: 14px
+    height: 12px
+    background: url('../img/dest/twitter.png') no-repeat
+    background-size: contain
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+
+.item-dribble:before
+    content: ''
+    display: block
+    width: 17px
+    height: 16px
+    background: url('../img/dest/dribble.png') no-repeat
+    background-size: contain
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+
+.item-instagram:before
+    content: ''
+    display: block
+    width: 18px
+    height: 18px
+    background: url('../img/dest/instagram.png') no-repeat
+    background-size: contain
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+
+.item-google:before
+    content: ''
+    display: block
+    width: 18px
+    height: 18px
+    background: url('../img/dest/google.png') no-repeat
+    background-size: contain
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+
+.item-youtube:before
+    content: ''
+    display: block
+    width: 16px
+    height: 11px
+    background: url('../img/dest/youtube.png') no-repeat
+    background-size: contain
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+
+.footer-nav
+    margin-bottom: 20px 
+    width: 65%
+    
+.footer-link a
+    text-transform: uppercase
+    color: #fff
+    font-size: 14px
+    font-weight: 300
+    margin-right: 30px
+
+.footer-link a:hover
+    text-decoration: none
+
+.hover-style-two a:hover
+    color: #00e0d0
+    border-color: #00e0d0
+
+.footer-link a:active
+    color: #3d4644
+
+.footer-copyright
+    margin-bottom: 20px
+
+.footer-copyright p
+    color: #fff
+    font-size: 14px
+
+.style-one:active
+    color: #3d4644
+    border-color: #3d4644
+
+.style-two:active
+    border-color: transparent
+.hover-style-one:hover
+    color: #cec3c3
+    border-color: #cec3c3
+
+.hover-style-two:hover
+    color: #00e0d0
+    border-color: #00e0d0
+    
