@@ -23,6 +23,7 @@ function scripts() {
     return src([
         'node_modules/jquery/dist/jquery.min.js',
         'node_modules/slick-carousel/slick/slick.min.js',
+        'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
         'app/js/scripts.js'
     ])//чтение из файловой системы
     .pipe(concat('app.min.js'))//обьединение файлов js
@@ -34,7 +35,8 @@ function scripts() {
 function styles() {
     return src(['app/css/reset.css',
                 'node_modules/slick-carousel/slick/slick.css', 
-                'node_modules/slick-carousel/slick/slick-theme.css', 
+                'node_modules/slick-carousel/slick/slick-theme.css',
+                'node_modules/bootstrap/dist/css/bootstrap.css', 
                 'app/'+preprocessor+'/main.'+preprocessor ])
     .pipe(eval(preprocessor)())// eval() переводит значение переменной в значение функции
     //автопрефиксер - добавляет проефиксы старым браузерам
