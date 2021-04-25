@@ -1,14 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>GulpProject</title>
-    <link rel="stylesheet" href="css/app.min.css">
-</head>
-<body>
-    <p>Hello World 345</p>
-    <img src="img/dest/backgroung.jpg" alt="pic">
 
-    <script type="text/javascript" src="js/app.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>GulpProject</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/app.min.css">
+  <!-- Подключение шрифтов -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="bg-wrapper">
+    <div class="container clearfix">
+      <nav class="navbar navbar-expand-lg navbar-light bg-nav-color">
+        <a class="navbar-brand d-flex align-items-center justify-content-center" href="index.html">
+          <img src="img/dest/logo-icon.png" width="45" height="50" alt="">
+          <div class="logo ml-2">tajam</div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- -->
+        <div class="collapse navbar-collapse offset-lg-2 offset-xl-3 " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#expertise">Expertise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#teams">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Peoples say</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacts</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+
+      <div class="row justify-content-center">
+        <div id="carouselExampleIndicators" class="col-11 col-md-10 carousel slide " data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption col col-sm-11 d-flex flex-column align-items-center justify-content-center">
+                <h1 class="bunner-title justify-content-center">We Are Awesome Creative Agency</h1>
+                <p class="bunner-title-description justify-content-center">This is Photoshop's version of Lorem Ipsum.
+                  Proin gravida nibh lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit facilis
+                  aliquid,
+                  quidem fugiat ullam blanditiis culpa nemo eos consequatur numquam exercitationem, velit perspiciatis.
+                  Culpa maxime delectus quisquam at necessitatibus dolorum.</p>
+                <a class="bunner-link d-inline-block style-one hover-style-one" href="#">Learn more</a>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-caption col col-sm-11 d-flex flex-column align-items-center justify-content-center">
+                <h1 class="bunner-title justify-content-center">We Are High Efficient</h1>
+                <p class="bunner-title-description justify-content-center">This is Photoshop's version of Lorem Ipsum.
+                  Proin gravida nibh lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit facilis
+                  aliquid,
+                  quidem fugiat ullam blanditiis culpa nemo eos consequatur numquam exercitationem, velit perspiciatis.
+                  Culpa maxime delectus quisquam at necessitatibus dolorum.</p>
+                <a class="bunner-link d-inline-block style-one hover-style-one" href="#">Learn more</a>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-caption col col-sm-11 d-flex flex-column align-items-center justify-content-center">
+                <h1 class="bunner-title justify-content-center">We Are Friendly Team</h1>
+                <p class="bunner-title-description justify-content-center">This is Photoshop's version of Lorem Ipsum.
+                  Proin gravida nibh lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit facilis
+                  aliquid,
+                  quidem fugiat ullam blanditiis culpa nemo eos consequatur numquam exercitationem, velit perspiciatis.
+                  Culpa maxime delectus quisquam at necessitatibus dolorum.</p>
+                <a class="bunner-link d-inline-block style-one hover-style-one" href="#">Learn more</a>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-caption col col-sm-11 d-flex flex-column align-items-center justify-content-center">
+                <h1 class="bunner-title justify-content-center">We Are Number One</h1>
+                <p class="bunner-title-description justify-content-center">This is Photoshop's version of Lorem Ipsum.
+                  Proin gravida nibh lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit facilis
+                  aliquid,
+                  quidem fugiat ullam blanditiis culpa nemo eos consequatur numquam exercitationem, velit perspiciatis.
+                  Culpa maxime delectus quisquam at necessitatibus dolorum.</p>
+                <a class="bunner-link d-inline-block style-one hover-style-one" href="#">Learn more</a>
+              </div>
+            </div>
+
+          </div>
+          <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span></a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="story" class="section-story-wrapper">
+    <div class="container">
+      <div class="row d-flex flex-row align-items-center justify-content-center">
+        <div class="col-8 col-sm-5 col-md-4 col-lg-3 offset-lg-1">
+          <div class="section-story-img">
+            <img src="img/dest/story-pic.png" alt="pic">
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-7 offset-md-1">
+          <h2 class="section-story-title">OUR STORY</h2>
+          <p class="section-story-description"> This is Photoshop's version of Lorem Ipsum. Proin gravida nibh Lorem
+            ipsum dolor sit amet consectetur
+            adipisicing elit. Ab blanditiis modi autem alias tenetur repudiandae fugiat qui iusto voluptatum ratione
+            voluptatem libero</p>
+          <p class="section-story-description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh Lorem
+            ipsum dolor sit amet consectetur
+            adipisicing elit. Ab blanditiis modi autem alias tenetur repudiandae fugiat qui iusto voluptatum ratione
+            voluptatem libero</p>
+          <a href="#" class="bunner-link story-link d-inline-block style-one hover-style-one" href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section-video-story">
+    <div class="section-video-bg">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-8 col-sm-4 col-md-3 col-lg-2">
+            <h3 class="section-video-title">Watch our story</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="expertise" class="section-expertise-wrapper">
+    <div class="container">
+      <div class="row justify-content-center section-expertise-title-wrap">
+        <div class="col-10 col-md-7">
+          <h2 class="section-story-title text-experience">EXPERTISE</h2>
+          <p class="section-story-description text-experience description-pseudoelem">Lorem ipsum dolor sit amet proin
+            gravida nibh vel velit</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center no-gutters">
+        <div class="col-10 col-md-6 col-lg-4  border-class">
+          <div class="card-wrapper d-flex flex-column align-items-center">
+            <div class="card-img-wrapper">
+              <img src="img/dest/item1.png" alt="">
+            </div>
+            <span class="card-item-title">WEB DESIGN & DEVELOPMENT</span>
+            <p class="card-item-description">This is Photoshop's version of Lorem Ipsum proin gravida nib proin proin
+              gravida nib proin</p>
+          </div>
+        </div>
+        <div class="col-10 col-md-6 col-lg-4 border-class">
+          <div class="card-wrapper d-flex flex-column align-items-center">
+            <div class="card-img-wrapper">
+              <img src="img/dest/item2.png" alt="">
+            </div>
+            <span class="card-item-title">BRANDING IDENTITY</span>
+            <p class="card-item-description">This is Photoshop's version of Lorem Ipsum proin gravida nib proin proin
+              gravida nib proin</p>
+          </div>
+        </div>
+        <div class="col-10 col-md-6 col-lg-4 border-class ">
+          <div class="card-wrapper d-flex flex-column align-items-center">
+            <div class="card-img-wrapper">
+              <img src="img/dest/item3.png" alt="">
+            </div>
+            <span class="card-item-title">MOBILE APP</span>
+            <p class="card-item-description">This is Photoshop's version of Lorem Ipsum proin gravida nib proin proin
+              gravida nib proin</p>
+          </div>
+        </div>
+        <div class="col-10 col-md-6 col-lg-4 border-class ">
+          <div class="card-wrapper d-flex flex-column align-items-center">
+            <div class="card-img-wrapper">
+              <img src="img/dest/item4.png" alt="">
+            </div>
+            <span class="card-item-title">SEARCH ENGINE OPTIMIZATION</span>
+            <p class="card-item-description">This is Photoshop's version of Lorem Ipsum proin gravida nib proin proin
+              gravida nib proin</p>
+          </div>
+        </div>
+        <div class="col-10 col-md-6 col-lg-4 border-class ">
+          <div class="card-wrapper d-flex flex-column align-items-center">
+            <div class="card-img-wrapper">
+              <img src="img/dest/item5.png" alt="">
+            </div>
+            <span class="card-item-title">GAME DEVELOPMENT</span>
+            <p class="card-item-description">This is Photoshop's version of Lorem Ipsum proin gravida nib proin proin
+              gravida nib proin</p>
+          </div>
+        </div>
+        <div class="col-10 col-md-6 col-lg-4 border-class ">
+          <div class="card-wrapper d-flex flex-column align-items-center">
+            <div class="card-img-wrapper">
+              <img src="img/dest/item6.png" alt="">
+            </div>
+            <span class="card-item-title">MADE WITH LOVE</span>
+            <p class="card-item-description">This is Photoshop's version of Lorem Ipsum proin gravida nib proin proin
+              gravida nib proin</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="teams" class="section-about-team-wrapper">
+    <div class="container">
+      <div class="row justify-content-center section-expertise-title-wrap">
+        <div class="col-10 col-md-7">
+          <h2 class="section-story-title text-experience light-theme">MEET OUR AMAZING TEAM</h2>
+          <p class="section-story-description text-experience description-pseudoelem light-theme">Lorem ipsum dolor sit
+            amet proin gravida nibh vel velit</p>
+        </div>
+      </div>
+      <div class="row justify-content-center team-cards-items">
+        <div class="col-lg-3 col-md-6 col-10 team-card-col">
+          <div class="team-card-wrapper">
+            <div class="avatar-team-card-wrapper d-flex align-items-center">
+              <img src="img/dest/card1.jpg" alt="pic">
+            </div>
+            <div class="team-card-description d-flex flex-column align-items-center">
+              <h3 class="name-card-field">SEMF UCUK</h3>
+              <span class="position-card-field">CEO & FOUNDER</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-10 team-card-col">
+          <div class="team-card-wrapper">
+            <div class="avatar-team-card-wrapper d-flex align-items-center">
+              <img src="img/dest/card2.jpg" alt="pic">
+            </div>
+            <div class="team-card-description d-flex flex-column align-items-center">
+              <h3 class="name-card-field">JENG KOL</h3>
+              <span class="position-card-field">DESIGNER</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-10 team-card-col">
+          <div class="team-card-wrapper">
+            <div class="avatar-team-card-wrapper d-flex align-items-center">
+              <img src="img/dest/card3.jpg" alt="pic">
+            </div>
+            <div class="team-card-description d-flex flex-column align-items-center">
+              <h3 class="name-card-field">DIK ADALIN</h3>
+              <span class="position-card-field">ENGINEERING</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-10 team-card-col">
+          <div class="team-card-wrapper">
+            <div class="avatar-team-card-wrapper d-flex align-items-center">
+              <img src="img/dest/card4.jpg" alt="pic">
+            </div>
+            <div class="team-card-description d-flex flex-column align-items-center">
+              <h3 class="name-card-field">PET ROMAK</h3>
+              <span class="position-card-field">MARKETING</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-8 col-10 d-flex flex-column align-items-center">
+          <p class="sect-team-slogan">Become part of our dream team, let’s join us ! </p>
+          <a href="#" class="bunner-link story-link d-inline-block style-one hover-style-one">We are hiring</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-works">
+    <div class="container">
+      <div class="works-title-wrapper d-flex flex-column flex-sm-row align-items-center justify-content-start align-items-sm-center justify-content-sm-between"> 
+        <h2 class="section-story-title text-experience">OUR WORKS</h2>
+        <a href="#" class="d-flex ml-4 ml-sm-0 align-self-start">See All Project in dribbble</a>
+      </div>
+    </div>
+    <div class="portfilio-wrapper d-flex flex-wrap">
+      <div class="img-wrapper">
+        <img src="img/dest/photo1.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo2.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo3.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo4.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo5.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo6.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo7.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo8.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo9.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo10.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo11.jpg" alt="pic">
+      </div>
+      <div class="img-wrapper">
+        <img src="img/dest/photo12.jpg" alt="pic">
+      </div>
+    </div>
+    <div class="container">
+      <div class="d-flex justify-content-center"> 
+        <a href="#" class="bunner-link story-link d-inline-block style-one hover-style-one" href="#">Lode more</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section-testimonials">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-10">
+          <div class="testimonial-cards slider-for">
+            <div class="testimonial-card">
+              <p class="testimonial-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                dolorem
+                animi sequi, inventore eaque assumenda itaque sunt eveniet cum consequuntur quasi optio aspernatur
+                mollitia
+                fugit sed delectus. Quasi, incidunt temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus sed deleniti illo omnis dolor iusto officia, aperiam ullam fuga!</p>
+              <h3 class="name-card-field">JENG KOL</h3>
+              <span class="position-card-field">DESIGNER</span>
+            </div>
+            <div class="testimonial-card">
+              <p class="testimonial-description">Quasi, incidunt temporibus? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+                Temporibus sed deleniti illo omnis dolor iusto officia, aperiam ullam fuga! Quasi, incidunt temporibus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus sed deleniti illo omnis dolor iusto officia, aperiam ullam fuga!</p>
+              <h3 class="name-card-field">SEMF UCUK</h3>
+              <span class="position-card-field">CEO & FOUNDER</span>
+            </div>
+            <div class="testimonial-card">
+              <p class="testimonial-description">Quasi, incidunt temporibus? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+                Temporibus sed deleniti illo omnis dolor iusto officia, aperiam ullam fuga!Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Maiores
+                dolorem animi sequi, inventore eaque assumenda itaque sunt eveniet cum consequuntur quasi optio
+                aspernatur
+                mollitia fugit sed delectus!</p>
+              <h3 class="name-card-field">JENG KOL</h3>
+              <span class="position-card-field">DESIGNER</span>
+            </div>
+            <div class="testimonial-card">
+              <p class="testimonial-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                dolorem
+                animi sequi, inventore eaque assumenda itaque sunt eveniet cum consequuntur quasi optio aspernatur
+                mollitia
+                fugit sed delectus. Quasi, incidunt temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus sed deleniti illo omnis dolor iusto officia, aperiam ullam fuga!</p>
+              <h3 class="name-card-field">PET ROMAK</h3>
+              <span class="position-card-field">MARKETING</span>
+            </div>
+            <div class="testimonial-card">
+              <p class="testimonial-description">Quasi, incidunt temporibus? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+                Temporibus sed deleniti illo omnis dolor iusto officia, aperiam ullam fuga!Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Maiores
+                dolorem animi sequi, inventore eaque assumenda itaque sunt eveniet cum consequuntur quasi optio
+                aspernatur
+                mollitia fugit sed delectus. </p>
+              <h3 class="name-card-field">DIK ADALIN</h3>
+              <span class="position-card-field">ENGINEERING</span>
+            </div>
+            <div class="testimonial-card">
+              <p class="testimonial-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                dolorem
+                animi sequi, inventore eaque assumenda itaque sunt eveniet cum consequuntur quasi optio aspernatur
+                mollitia
+                fugit sed delectus. Quasi, incidunt temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus sed deleniti illo omnis dolor iusto officia, aperiam ullam fuga!</p>
+              <h3 class="name-card-field">PET ROMAK</h3>
+              <span class="position-card-field">MARKETING</span>
+            </div>
+            <div class="testimonial-card">
+              <p class="testimonial-description"> Quasi, incidunt temporibus? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+                Temporibus sed deleniti illo omnis dolor iusto officia, aperiam ullam fuga!Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Maiores
+                dolorem animi sequi, inventore eaque assumenda itaque sunt eveniet cum consequuntur quasi optio
+                aspernatur
+                mollitia fugit sed delectus. </p>
+              <h3 class="name-card-field">DIK ADALIN</h3>
+              <span class="position-card-field">ENGINEERING</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-xl-6 col-md-8 col-10">
+          <div class="authors-of-testimonials slider-nav">
+            <div class="author-avatar-wrapper">
+              <img src="img/dest/card2.jpg" alt="avatar">
+            </div>
+            <div class="author-avatar-wrapper">
+              <img src="img/dest/card1.jpg" alt="avatar">
+            </div>
+            <div class="author-avatar-wrapper">
+              <img src="img/dest/card4.jpg" alt="avatar">
+            </div>
+            <div class="author-avatar-wrapper">
+              <img src="img/dest/card3.jpg" alt="avatar">
+            </div>
+            <div class="author-avatar-wrapper">
+              <img src="img/dest/card4.jpg" alt="avatar">
+            </div>
+            <div class="author-avatar-wrapper">
+              <img src="img/dest/card1.jpg" alt="avatar">
+            </div>
+            <div class="author-avatar-wrapper">
+              <img src="img/dest/card2.jpg" alt="avatar">
+            </div>
+            <div class="author-avatar-wrapper">
+              <img src="img/dest/card3.jpg" alt="avatar">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-5 col-lg-6 col-10 sect-form-wrapper">
+          <h3 class="contact-sect-title">GIVE US A GOOD NEWS</h3>
+          <form>
+            <div class="contact-form-wrapper d-flex flex-column">
+              <input class="input-style style-one hover-style-one" type="text" placeholder="Name">
+              <input class="input-style style-one hover-style-one" type="email" placeholder="Email">
+              <input class="input-style style-one hover-style-one" type="text" placeholder="Subject">
+              <textarea class="input-style style-one hover-style-one" rows="6" placeholder="Your message"></textarea>
+            </div>
+            <input class="contact-button d-inline-block style-one hover-style-one" type="submit" value="Submit"></p>
+          </form>
+        </div>
+        <div class="col-md-6 col-lg-5 offset-md-1 col-10 sect-form-wrapper">
+          <h3 class="contact-sect-title">OUR HAPPY CLIENT</h3>
+          <div class="row justify-content-sm-between justify-content-center">
+            <div class="col-sm-4 col-7 d-flex flex-column align-items-center">
+              <div class="client-logo-wrapper d-flex justify-content-center align-items-center">
+                <img src="img/dest/client1.png" alt="client">
+              </div>
+              <div class="client-logo-wrapper d-flex justify-content-center align-items-center">
+                <img src="img/dest/client2.png" alt="client">
+              </div>
+              <div class="client-logo-wrapper d-flex justify-content-center align-items-center">
+                <img src="img/dest/client3.png" alt="client">
+              </div>
+              <div class="client-logo-wrapper d-flex justify-content-center align-items-center">
+                <img src="img/dest/client4.png" alt="client">
+              </div>
+              <div class="client-logo-wrapper d-flex justify-content-center align-items-center">
+                <img src="img/dest/client5.png" alt="client">
+              </div>
+            </div>
+            <div class="col-sm-4 col-7 offset-sm-3 offset-md-2 d-flex flex-column align-items-center">
+              <div class="client-logo-wrapper d-flex justify-content-center align-items-center">
+                <img src="img/dest/client6.png" alt="client">
+              </div>
+              <div class="client-logo-wrapper d-flex justify-content-center align-items-center">
+                <img src="img/dest/client7.png" alt="client">
+              </div>
+              <div class="client-logo-wrapper d-flex justify-content-center align-items-center">
+                <img src="img/dest/client8.png" alt="client">
+              </div>
+              <div class="client-logo-wrapper d-flex justify-content-center align-items-center">
+                <img src="img/dest/client9.png" alt="client">
+              </div>
+              <div class="client-logo-wrapper d-flex justify-content-center align-items-center">
+                <img src="img/dest/client10.png" alt="client">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-footer">
+    <div class="footer-bg">
+      <footer class="container">
+        <div class="row d-flex justify-content-center justify-content-sm-start">
+          <div class="col-md-4 col-sm-6 col-10 mb-5">
+            <div class="logo-wrapper">
+              <a href="index.html" class="d-flex align-items-center">
+                <img src="img/dest/logo-icon.png" width="45" height="50" alt="">
+                <div class="logo ml-2">tajam</div>
+              </a>
+            </div>
+            <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse et, ut mollitia
+              incidunt deserunt, quas laborum eaque culpa</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-10 mb-5">
+            <h3 class="footer-title">OUR STUDIO</h3>
+            <div class="studio-contact-wrapper">
+              <p class="footer-text footer-studio-adress">
+                Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat <br> 11480 - Indonesia
+              </p>
+              <p class="footer-text footer-studio-phone">
+                (+62) 21-2224 3333
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-10 mb-5">
+            <h3 class="footer-title">STAY IN TOUCH</h3>
+            <form>
+              <div class="footer-form-wrapper d-flex mb-3">
+                <a class="form-subscribe-link footer-text text-center d-block px-1 style-two hover-style-two " href="#">Subscribe our newsletter</a>
+                <button class="footer-btn"></button>
+              </div>
+            </form>
+            <div class="social-media-wrapper d-flex flex-wrap">
+              <a href="#" class="d-block"><div class="social-media-item style-two hover-style-two item-facebook"> 
+              </div></a>
+              <a href="#" class="d-block"><div class="social-media-item style-two hover-style-two item-twitter"> 
+              </div></a>
+              <a href="#" class="d-block"><div class="social-media-item style-two hover-style-two item-dribble"> 
+              </div></a>
+              <a href="#" class="d-block"><div class="social-media-item style-two hover-style-two item-instagram"> 
+              </div></a>
+              <a href="#" class="d-block"><div class="social-media-item style-two hover-style-two item-google"> 
+              </div></a>
+              <a href="#" class="d-block"><div class="social-media-item style-two hover-style-two item-youtube"> 
+              </div></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="row d-flex justify-content-center justify-content-sm-start">
+          <div class="col-10 col-sm-12 d-flex flex-column flex-md-row justify-content-sm-between justify-content-center">
+            <div class="footer-nav d-flex flex-wrap flex-column flex-md-row footer-link style-two hover-style-two">
+              <!-- <ul class="d-flex flex-wrap flex-column flex-md-row">
+                <li class="mb-2 "><a href="#" сlass="footer-link style-two hover-style-two">help</a> </li>
+                <li class="mb-2 "><a href="#" сlass="footer-link style-two hover-style-two"></a></li>
+                <li class="mb-2 "><a href="#" сlass="footer-link style-two hover-style-two"></a></li>
+              </ul> -->
+              <a href="#" >help</a>
+              <a href="#" >TERMS & CONDITION</a>
+              <a href="#" >PRIVACY</a>
+            </div>
+            <div class="footer-copyright">
+              <p>Copyright © 2015 - Tajem Creative</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+
+  <script type="text/javascript" src="js/app.min.js"></script>
 </body>
+
 </html>
