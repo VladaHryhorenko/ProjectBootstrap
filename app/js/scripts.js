@@ -47,24 +47,18 @@ $( document ).ready(function() {
         asNavFor: '.slider-for',
         focusOnSelect: true,
         autoplay: true,
+        centerMode: true,
         responsive: [
           {
             breakpoint: 992,
             settings: {
               slidesToShow: 3,
-              centerMode: true
             }
           },
           {
-            breakpoint: 578,
+            breakpoint: 490,
             settings: {
-              slidesToShow: 3
-            }
-          },
-          {
-            breakpoint: 400,
-            settings: {
-              arrows: false,
+              //arrows: false,
               slidesToShow: 1
             }
           }

@@ -68,7 +68,8 @@ body
     transform: translate(-50%, -50%)
 
 .carousel-indicators
-    padding: 20px 0 40px 0
+    padding: 20px 0
+    margin-bottom: 20px
 
 .carousel-indicators li
     width: 7px
@@ -139,6 +140,7 @@ body
     font-weight: 400
     font-family: Playfair Display
     margin-bottom: 30px
+    text-transform: uppercase
     color: #413d4b
 
 .section-story-description
@@ -315,6 +317,45 @@ body
     padding: 70px 0
     color: #fff
 
+.works-title-wrapper a
+    color: #5a5763
+    margin-bottom: 15px
+    padding-right: 20px
+    font-size: 14px
+    font-weight: 300
+    position: relative
+
+.works-title-wrapper a:hover
+    text-decoration: none
+
+.works-title-wrapper a:hover
+
+.works-title-wrapper a:before
+    content: ''
+    display: block
+    height: 13px
+    width: 8px
+    background: url(../img/dest/works-link-arrow.png) no-repeat
+    background-size: cover
+    position: absolute
+    right: 0
+    top: 50%
+    transform: translateY(-50%)
+
+.portfilio-wrapper
+    margin-bottom: 70px
+
+.img-wrapper
+    width: 16.6%
+    height: 170px
+    overflow: hidden
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+
+
 .section-testimonials
     width: 100%
     height: 100%
@@ -367,6 +408,10 @@ body
         height: 100%
         object-fit: cover*/
 
+.slick-track
+    display: flex
+    align-items: center
+
 .slick-slide img 
     display: block
     width: 70px
@@ -374,6 +419,10 @@ body
     border-radius: 50%
     overflow: hidden
     margin: 0 auto
+
+.slick-center img 
+  width: 90px
+  height: 90px
 
 
 .slick-prev
@@ -397,7 +446,7 @@ body
     height: 20px
     background: url('../img/dest/rigth-arrow.png') no-repeat
     background-size: cover
-    transform: rotate(180deg);
+    transform: rotate(180deg)
 
 .section-contact
     padding: 70px 0
@@ -662,4 +711,18 @@ body
 .hover-style-two:hover
     color: #00e0d0
     border-color: #00e0d0
+
+@media screen and ( max-width:  992px)
+    .img-wrapper
+        width: 25%
+
+@media screen and (max-width:  768px)
+    .img-wrapper
+        width: 33.3%
+        height: 150px
+
+@media screen and (max-width:  690px)
+    .img-wrapper
+        width: 50%
+    
     

@@ -23,6 +23,7 @@
     "jquery": "^3.6.0"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "slick-carousel": "^1.8.1"
   }
 }

@@ -35,8 +35,8 @@ function scripts() {
 function styles() {
     return src(['app/css/reset.css',
                 'node_modules/slick-carousel/slick/slick.css', 
-                'node_modules/slick-carousel/slick/slick-theme.css',
-                'node_modules/bootstrap/dist/css/bootstrap.css', 
+                'node_modules/slick-carousel/slick/slick-theme.css', 
+                'node_modules/bootstrap/dist/css/bootstrap.css',
                 'app/'+preprocessor+'/main.'+preprocessor ])
     .pipe(eval(preprocessor)())// eval() переводит значение переменной в значение функции
     //автопрефиксер - добавляет проефиксы старым браузерам
